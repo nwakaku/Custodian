@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid black;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    display: grid;
+    place-items: center;
+  }
+  
+  .items {
+    width: 300px;
+    background: #fffffe;
+    box-shadow: 0 3px 6px rgba(black,0.16), 0 3px 6px rgba(black,0.23);
+    border-top: 10px solid black;
+    margin-top: 5rem;
+  }
+  
+  .itemshead p{
+    padding: 5px 20px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
