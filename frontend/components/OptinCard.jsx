@@ -37,7 +37,7 @@ export default function OutlinedCard() {
         address: reporterAddr,
         abi: reporterABI,
         functionName: "getReporterInfoWithAddress",
-        args: address
+        args: ["0x7c7cd30A10eEA6Ac72613182a97994589f5181EA"]
     })
 
     useEffect(() => {
